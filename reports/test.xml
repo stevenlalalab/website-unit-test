@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="8">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="7"
+    tests="8" time="0.004000" timestamp="Wed, 28 Nov 2018 15:48:23 GMT">
+  
+    <testcase name="upload picture" classname="test" time="0.004000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Test / upload picture]:
+
+  Error: ENOENT: no such file or directory, open &#39;/Users/steven/Documents/training/chrome-nightwatch/interresting-picture.jpeg&#39;
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at Object.upload picture (/Users/steven/Documents/training/chrome-nightwatch/test/test.js:61:33)
+    at Module.call (/Users/steven/Documents/training/chrome-nightwatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/steven/Documents/training/chrome-nightwatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:796:13)
+    at /Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:137:13)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="picture should be upload" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="click next button" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="click accept term and condition" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="validate command" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="connection using valid email + valid password" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="time and time again" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="fill using information" classname="test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

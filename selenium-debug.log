@@ -1,0 +1,14 @@
+14:43:54.151 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
+14:43:54.151 INFO - Launching a standalone Selenium Server on port 4444
+2018-11-21 14:43:54.392:INFO::main: Logging initialized @678ms to org.seleniumhq.jetty9.util.log.StdErrLog
+2018-11-21 14:43:54.587:INFO:osjs.Server:main: jetty-9.4.7.v20170914, build timestamp: 2017-11-21T22:27:37+01:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-11-21 14:43:54.612:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@bd4dc25{/,null,STARTING} has uncovered http methods for path: /
+2018-11-21 14:43:54.617:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@bd4dc25{/,null,AVAILABLE}
+2018-11-21 14:43:54.664:INFO:osjs.AbstractConnector:main: Started ServerConnector@229c6181{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2018-11-21 14:43:54.665:INFO:osjs.Server:main: Started @950ms
+14:43:54.665 INFO - Selenium Server is up and running on port 4444
+2018-11-21 14:43:54.908:INFO:osjshC.ROOT:qtp306115458-18: org.openqa.selenium.remote.server.WebDriverServlet-6bf0219d: Initialising WebDriverServlet
+14:43:55.001 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@57f55479
+14:43:55.006 INFO - /session: Executing POST on /session (handler: BeginSession)
+14:43:55.093 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, name: Test}
+14:43:55.094 INFO - Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, name: Test} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)

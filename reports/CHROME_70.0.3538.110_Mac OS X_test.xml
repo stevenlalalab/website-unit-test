@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="8">
+
+  <testsuite name="test"
+    errors="0" failures="1" hostname="" id="" package="test" skipped="1"
+    tests="8" time="15.51" timestamp="Wed, 28 Nov 2018 15:52:05 GMT">
+  
+    <testcase name="upload picture" classname="test" time="4.033" assertions="0">
+    </testcase>
+  
+    <testcase name="picture should be upload" classname="test" time="0.03500" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="click next button" classname="test" time="2.383" assertions="0">
+    </testcase>
+  
+    <testcase name="click accept term and condition" classname="test" time="0.08500" assertions="0">
+    </testcase>
+  
+    <testcase name="validate command" classname="test" time="0.08200" assertions="0">
+    </testcase>
+  
+    <testcase name="connection using valid email + valid password" classname="test" time="8.510" assertions="0">
+    </testcase>
+  
+    <testcase name="time and time again" classname="test" time="0.3860" assertions="1">  <failure message="Testing if the URL equals &#34;http://localhost:4242/fr/addresse&#34;.">    at Object.time and time again (/Users/steven/Documents/training/chrome-nightwatch/test/test.js:103:23)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="fill using information" classname="test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

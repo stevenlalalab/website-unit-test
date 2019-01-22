@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="8">
+
+  <testsuite name="test"
+    errors="2" failures="1" hostname="" id="" package="test" skipped="6"
+    tests="8" time="3.117" timestamp="Tue, 22 Jan 2019 15:47:33 GMT">
+  
+    <testcase name="upload picture" classname="test" time="1.604" assertions="0">
+    </testcase>
+  
+    <testcase name="picture should be upload" classname="test" time="1.513" assertions="1">  <failure message="Expected element &lt;#picture-thumbs-up&gt; to be present in 1000ms - element was not found">    at Object.picture should be upload (/Users/steven/Documents/training/chrome-nightwatch/test/test.js:75:23)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;#file-upload&#34; using: css selector
+    at Object.upload picture (/Users/steven/Documents/training/chrome-nightwatch/test/test.js:68:10)
+    at Module.call (/Users/steven/Documents/training/chrome-nightwatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/steven/Documents/training/chrome-nightwatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:796:13)
+    at /Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;#button-next&#34; using: css selector
+    at Object.upload picture (/Users/steven/Documents/training/chrome-nightwatch/test/test.js:71:10)
+    at Module.call (/Users/steven/Documents/training/chrome-nightwatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/steven/Documents/training/chrome-nightwatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:796:13)
+    at /Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/steven/Documents/training/chrome-nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="click next button" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="click accept term and condition" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="validate command" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="connection using valid email + valid password" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check if information are valid" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="fill using information" classname="test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
